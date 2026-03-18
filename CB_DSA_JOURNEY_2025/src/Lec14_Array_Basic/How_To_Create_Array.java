@@ -11,6 +11,7 @@ public class How_To_Create_Array {
 int [] arr= new int[5];  //JVM will come and read first new int[5] and create a array of size in heap memory at some address
                         //Due to int [] arr new 1D array will create whose name is arr and address of 5 size array  created in heap will store in arr
 
+
 System.out.println(arr); //Due to this we get the address of array created in heap memory
 System.out.println(arr.length); //Due to this we get 5 as array length
 
