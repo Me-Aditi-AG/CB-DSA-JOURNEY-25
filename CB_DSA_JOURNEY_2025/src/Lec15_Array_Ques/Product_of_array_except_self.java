@@ -40,6 +40,7 @@ for(int i=N-2;i>=0;i--)
 right[i]=right[i+1]*nums[i+1];
 }
 
+// To calculate the final answer
 for(int i=0;i<N;i++)
 {
 left[i]= left[i]*right[i];
